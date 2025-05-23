@@ -8,10 +8,8 @@ Includes inline comments for beginner-friendly understanding.
 💡 What is a Dot Product?
 The dot product of two vectors is the sum of the products of their corresponding entries. For vectors A and B:
 
-markdown
-Copy
-Edit
 Dot Product = A₁*B₁ + A₂*B₂ + A₃*B₃ + ... + Aₙ*Bₙ
+
 🧾 Example in This Program
 Given:
 
@@ -21,23 +19,17 @@ Vector 2: {5, 9, 13}
 
 The dot product is calculated as:
 
-markdown
-Copy
-Edit
 (8*5) + (16*9) + (32*13) = 40 + 144 + 416 = 600
+
 🛠 How to Compile and Run
 Make sure you have a C++ compiler (like g++) installed.
 
 Compile
-bash
-Copy
-Edit
 g++ -o dot_product main.cpp
+
 Run
-bash
-Copy
-Edit
 ./dot_product
+
 📄 File Overview
 main.cpp: Contains the dot product function and the main() method to demonstrate it.
 
